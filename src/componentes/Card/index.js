@@ -1,3 +1,4 @@
+import Botao from "componentes/Botao";
 import "./Card.css";
 
 export default function Card({ titulo, imagemUrl }) {
@@ -7,7 +8,7 @@ export default function Card({ titulo, imagemUrl }) {
         <img src={imagemUrl} alt={titulo} />
       </div>
       <h2>{titulo}</h2>
-      <button>Ver mais</button>
+      <Botao>Ler</Botao>
     </div>
   );
 }
