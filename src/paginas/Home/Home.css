@@ -1,5 +1,5 @@
 .home{
-    /* position: relative; */
+    margin-bottom: 100px;
 }
 
 .card-container{
@@ -7,8 +7,19 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.5rem;
-    padding: 0rem 8rem;
-    /* position: absolute;
-    top: 90%; */
+    padding: 0 7vw 3.625rem;
     margin-top: -3rem;
+}
+
+@media (max-width: 1100px) {
+    .card-container {
+        margin-top: 0;
+        padding: 2rem 1.5rem 3.625rem;
+    }
+}
+ 
+@media (max-width: 744px) {
+    .card-container {
+        padding: 2rem 1rem 3rem;
+    }
 }

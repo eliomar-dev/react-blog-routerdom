@@ -2,12 +2,14 @@ import Banner from "componentes/Banner";
 import Card from "componentes/Card";
 import "./Home.css";
 import { useEffect, useState } from "react";
+// import posts from "json/posts.json";
 
 export default function Home() {
   const [cards, setCards] = useState([]);
 
+
   async function fetchCards() {
-    const response = await fetch("http://localhost:3000/posts");
+    const response = await fetch("https://json-server-zeta-six.vercel.app/posts");
     const data = await response.json();
     setCards(data);
   }
