@@ -1,0 +1,23 @@
+.about{
+    padding: 2rem 4rem;
+}
+
+.about img{
+    float: right;
+    margin-bottom: .5rem;
+    margin-left: 4rem;
+    width: 30vw;
+    border-radius: 50%;
+}
+
+.subtitulo {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.about p {
+    text-align: justify;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin-bottom: 1.5rem;
+}

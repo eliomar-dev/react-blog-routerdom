@@ -1,0 +1,27 @@
+.banner-titulo {
+  /* height: 204px; */
+  padding: 62px 120px;
+  position: relative;
+  
+}
+
+.imagem{
+    height: 204px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.banner-titulo h1 {
+  color: #444;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+}

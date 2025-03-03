@@ -2,7 +2,7 @@
   padding: 3rem 7.5rem 6.25rem;
   background-color: var(--azul-escuro);
   color: var(--branco);
-  
+
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -15,14 +15,14 @@
 }
 
 .banner h1 {
-  font-family: var(--fonte-secundaria);
+  /* font-family: var(--fonte-secundaria); */
   font-size: 4rem;
   margin-top: 4.875rem;
   margin-bottom: 2rem;
 }
 
 .banner p {
-  font-family: var(--fonte-secundaria);
+  /* font-family: var(--fonte-secundaria); */
   font-size: 1.5rem;
   line-height: 2rem;
   margin-bottom: 2rem;
