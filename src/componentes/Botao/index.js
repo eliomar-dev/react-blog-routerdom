@@ -1,8 +1,8 @@
 import './Botao.css';
 
-export default function Botao({ children }) {
+export default function Botao({ children, tamanho, aoClicar }) {
   return (
-    <button className="botao" >
+    <button onClick={aoClicar} className={`botao ${tamanho}`} >
       {children}
     </button>
   );

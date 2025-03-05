@@ -1,5 +1,6 @@
 import BannerTitulo from "componentes/BannerTitulo";
 import "./About.css";
+import fotoEu from "assets/Eu.jpg"
 
 export default function About() {
   return (
@@ -9,7 +10,7 @@ export default function About() {
         <h3 className="subtitulo">Olá, eu sou o Eliomar Campos!</h3>
 
         <img
-          src="/assets/foto-sobre-mim/eu.jpg"
+          src={fotoEu}
           alt="Foto de Eliomar Sorrindo"
         />
 
