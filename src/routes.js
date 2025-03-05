@@ -4,7 +4,7 @@ import About from "./paginas/About";
 import Home from "./paginas/Home";
 import Rodape from "componentes/Rodape";
 import PaginaPadrao from "componentes/PaginaPadrao";
-import Post from "componentes/Post";
+import Post from "paginas/Post";
 
 function AppRoutes() {
   return (

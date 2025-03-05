@@ -15,7 +15,7 @@ export default function Post() {
         titulo={post.titulo}
         imagemUrl={`/assets/posts/${post.id}/capa.png`}
       />
-      <div className="post">
+      <div className="post-markdown-container">
         <ReactMarkdown>{post.texto}</ReactMarkdown>
       </div>
     </section>
