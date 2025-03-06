@@ -1,6 +1,6 @@
 import BannerTitulo from "componentes/BannerTitulo";
 import "./About.css";
-import fotoEu from "assets/Eu.jpg"
+import fotoEu from "assets/Eu.jpg";
 
 export default function About() {
   return (
@@ -9,34 +9,43 @@ export default function About() {
       <div className="about">
         <h3 className="subtitulo">Olá, eu sou o Eliomar Campos!</h3>
 
-        <img
-          src={fotoEu}
-          alt="Foto de Eliomar Sorrindo"
-        />
+        <img src={fotoEu} alt="Foto de Eliomar Sorrindo" />
 
         <p>
-          Oi, tudo bem? Eu sou instrutor de Front-end no IFBA e estou feliz de
-          te ver por aqui.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <p>
-          Minha história com programação começou no Instituto Federal da Bahia
-          (IFBA), quando fiz o ensino médio integrado ao curso de Informática.
-          Eu aprendi lógica de programação e o básico de várias linguagens, como
-          PHP, Python, Java, mas sem aprofundar muito em cada uma delas. Eu
-          gostava muito de estudar programação, mas na época não fazia ideia de
-          que trabalharia com isso hoje.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <p>
-          No ensino superior, escolhi cursar Sistemas de Informação na Faculdade
-          Sete de Setembro (FASETE). Lá eu consegui entrar no PET (Programa de
-          Educação Tutorial), um grupo acadêmico que contribui de diversas
-          formas para o curso. Lá eu tive a oportunidade de estudar
-          desenvolvimento web para ser um dos mantenedores do site deles.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <p>
-          Com isso tive minha experiência de dev mais próxima da realidade, com
-          prazos de implementação para o site, e aprendi muito enquanto
-          codificava.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <p></p>
         <p>

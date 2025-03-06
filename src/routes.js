@@ -14,7 +14,12 @@ function AppRoutes() {
       <ScrollToTop />
       <Header />
 
+      {/* Routes é semelhante ao Switch da versão 5 do React Router */}
       <Routes>
+        {/* Rotas aninhadas em uma rota pai
+        O componente PaginaPadrao será renderizado em todas as rotas filhas
+        O componente Home será o primeiro renderizado junto com o pai PaginaPadrao
+        O componente About será renderizado somente quando a rota for /about, mas apenas junto com o pai PaginaPadrao */}
         <Route path="/" element={<PaginaPadrao />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
