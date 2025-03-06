@@ -1,8 +1,9 @@
 import Botao from "componentes/Botao";
-import "./Card.css";
 import { Link } from "react-router";
+import "./Card.css";
 
 export default function Card({ post }) {
+
   return (
     <Link to={`/posts/${post.id}`}>
       <div className="card">

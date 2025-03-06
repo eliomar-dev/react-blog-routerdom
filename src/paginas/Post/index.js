@@ -1,13 +1,12 @@
 import BannerTitulo from "componentes/BannerTitulo";
-import "./Post.css";
-import { Route, Routes, useParams } from "react-router";
-import posts from "json/db.json";
-import React from "react";
-import ReactMarkdown from "react-markdown";
-import NaoEncontrada from "paginas/NaoEncontrada";
-import Header from "componentes/Header";
-import Banner from "componentes/Banner";
+import Card from "componentes/Card";
 import PaginaPadrao from "componentes/PaginaPadrao";
+import posts from "json/db.json";
+import NaoEncontrada from "paginas/NaoEncontrada";
+import ReactMarkdown from "react-markdown";
+import { Route, Routes, useParams } from "react-router";
+import "./Post.css";
+import { useEffect } from "react";
 
 export default function Post() {
   const params = useParams();
@@ -18,7 +17,6 @@ export default function Post() {
   }
 
   return (
-
     <Routes>
       <Route path="*" element={<PaginaPadrao />}>
         <Route
@@ -31,7 +29,16 @@ export default function Post() {
               />
               <div className="post-markdown-container">
                 <ReactMarkdown>{post.texto}</ReactMarkdown>
+                <h1>Outros posts que você pode gostar:</h1>
               </div>
+              <article className="cards-container">
+                {posts
+                  .filter((e) => e.id !== post.id)
+                  .slice(0, 4)
+                  .map((p) => (
+                    <Card key={p.id} post={p} />
+                  ))}
+              </article>
             </section>
           }
         />
